@@ -1,38 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: white;
+  padding: 15px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+  padding: 15px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  letter-spacing: -0.1em;
+  font-weight: 700;
 }
+
+.nav {
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form {
+  padding: 30px 0;
+}
+
+.input-group {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.input {
+  flex: 1 1 0;
+  width: 100%;
+  border: 1px solid #D5D4D8;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  width: 100%;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  /* font-family: 'Karla'; */
+/* font-style: normal; */
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+/* identical to box height */
+
+/* text-align: center; */
+letter-spacing: -0.1em;
+
+  color: #FFFFFF;
+}
+
